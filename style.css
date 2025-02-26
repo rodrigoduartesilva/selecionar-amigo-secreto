@@ -127,11 +127,16 @@ button {
 
 /* Listas */
 ul {
+    display: flex;
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+}
+
+.name-list {
+    color: #1b04eb;
 }
 
 .result-list {
